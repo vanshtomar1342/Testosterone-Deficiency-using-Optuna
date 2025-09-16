@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as stm
 from streamlit_option_menu import option_menu
 import pandas as pd
 from utils.get_data import Data
@@ -80,4 +80,5 @@ def main():
             st.success(Test_result)
 
 if __name__=='__main__':
+
     main()
